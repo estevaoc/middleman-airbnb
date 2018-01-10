@@ -1,0 +1,31 @@
+/* Main footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.footer-copyright {
+  box-sizing: border-box;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
